@@ -1,6 +1,7 @@
 "use client";
 
 import { m } from "framer-motion";
+import { Link } from "react-router-dom";
 import { Button } from "./ui/button";
 import { Compass, ArrowRight } from "lucide-react";
 import { useCheckout } from "@/hooks/use-checkout";
@@ -34,21 +35,30 @@ const FinalCTA = () => {
           Inspect verified low-carbon assemblies, simulate hygrothermal physics, and export BIM-ready parameter packages.
         </p>
 
-        <Button
-          size="lg"
-          onClick={() => startCheckout("practice-plan")}
-          disabled={isLoading("practice-plan")}
-          className="bg-[#C85A32] hover:bg-[#A64522] text-white font-sans text-sm font-medium py-3.5 px-8 rounded-lg transition-all"
-        >
-          {isLoading("practice-plan") ? (
-            "Accessing Workbench..."
-          ) : (
-            <span className="flex items-center gap-2">
-              Start 14-Day Free Trial (No Card Required)
-              <ArrowRight className="w-4 h-4" />
-            </span>
-          )}
-        </Button>
+        <div className="flex flex-wrap justify-center gap-4">
+          <Button
+            size="lg"
+            asChild
+            className="bg-[#C85A32] hover:bg-[#A64522] text-white font-sans text-sm font-medium py-3.5 px-8 rounded-lg transition-all"
+          >
+            <Link to="/workbench">
+              <span className="flex items-center gap-2">
+                Open STRATA Workbench
+                <ArrowRight className="w-4 h-4" />
+              </span>
+            </Link>
+          </Button>
+
+          <Button
+            size="lg"
+            variant="outline"
+            onClick={() => startCheckout("practice-plan")}
+            disabled={isLoading("practice-plan")}
+            className="bg-white text-[#C85A32] hover:bg-[#181816] hover:text-white hover:border-[#EAE7DF]/30 border border-[#C85A32]/30 font-sans text-sm font-medium py-3.5 px-6 rounded-lg transition-all"
+          >
+            {isLoading("practice-plan") ? "Accessing..." : "Start 14-Day Free Trial"}
+          </Button>
+        </div>
       </m.div>
     </section>
   );

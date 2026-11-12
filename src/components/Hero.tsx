@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { useCheckout } from "@/hooks/use-checkout";
@@ -186,7 +187,10 @@ const Hero = () => {
               asChild
               className="bg-[#C85A32] text-white hover:bg-[#A64522] font-sans text-sm font-medium px-6 py-3 rounded-lg transition-all"
             >
-              <a href="#spec-sandbox">Explore Materials</a>
+              <Link to="/workbench">
+                Launch Workbench
+                <ArrowUpRight className="w-4 h-4 ml-1.5" />
+              </Link>
             </Button>
 
             <Button
@@ -195,7 +199,7 @@ const Hero = () => {
               asChild
               className="bg-white text-[#C85A32] hover:bg-[#181816] hover:text-white hover:border-[#EAE7DF]/30 border border-[#C85A32]/30 font-sans text-sm font-medium px-6 py-3 rounded-lg transition-all"
             >
-              <a href="#pricing">Pricing &amp; Access</a>
+              <a href="#spec-sandbox">Preview Sandbox</a>
             </Button>
           </div>
         </div>
@@ -371,6 +375,13 @@ const Hero = () => {
                   <Download className="w-3.5 h-3.5 mr-2" />
                   Export BIM Package
                 </Button>
+                <Link
+                  to="/workbench"
+                  className="inline-flex items-center text-xs font-sans font-medium text-[#EAE7DF]/80 hover:text-[#C85A32] transition-colors ml-auto"
+                >
+                  Open in Full Composer
+                  <ArrowUpRight className="w-3.5 h-3.5 ml-1" />
+                </Link>
               </div>
 
             </div>

@@ -12,6 +12,7 @@ import EULA from "./pages/EULA";
 import Contact from "./pages/Contact";
 import RefundPolicy from "./pages/RefundPolicy";
 import EarlyAccessTerms from "./pages/EarlyAccessTerms";
+import Workbench from "./pages/Workbench";
 import ScrollToHash from "./components/ScrollToHash";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
           <ScrollToHash />
           <Routes>
             <Route path="/" element={<Index />} />
+            <Route path="/workbench" element={<Workbench />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/terms-of-service" element={<TermsOfService />} />
             <Route path="/eula" element={<EULA />} />

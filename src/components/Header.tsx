@@ -86,9 +86,9 @@ const Header = () => {
                 asChild
                 className="bg-[#C85A32] text-white font-sans text-xs font-medium hover:bg-[#A64522] rounded-lg px-4 py-2 h-auto transition-all"
               >
-                <a href="/#pricing" onClick={(e) => handleNavClick(e, "/#pricing")}>
-                  Request Access
-                </a>
+                <Link to="/workbench">
+                  Open Workbench
+                </Link>
               </Button>
             </div>
           </nav>
@@ -100,9 +100,9 @@ const Header = () => {
               asChild
               className="bg-[#C85A32] text-white font-sans text-xs font-medium hover:bg-[#A64522] rounded-lg px-3 py-1.5 h-auto"
             >
-              <a href="/#pricing" onClick={(e) => handleNavClick(e, "/#pricing")}>
-                Access
-              </a>
+              <Link to="/workbench">
+                Workbench
+              </Link>
             </Button>
             
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
@@ -140,15 +140,12 @@ const Header = () => {
                       asChild
                       className="w-full bg-[#C85A32] text-white font-sans text-xs font-medium hover:bg-[#A64522] rounded-lg py-2.5 h-auto"
                     >
-                      <a
-                        href="/#pricing"
-                        onClick={(e) => {
-                          handleNavClick(e, "/#pricing");
-                          setIsOpen(false);
-                        }}
+                      <Link
+                        to="/workbench"
+                        onClick={() => setIsOpen(false)}
                       >
-                        Request Access
-                      </a>
+                        Open Workbench
+                      </Link>
                     </Button>
                     <Button
                       variant="outline"

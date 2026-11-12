@@ -20,7 +20,7 @@ function copy404Plugin() {
 
 // https://vitejs.dev/config/
 export default defineConfig(() => ({
-  base: process.env.VITE_BASE_PATH || (process.env.NODE_ENV === "production" ? "/archivest/" : "/"),
+  base: process.env.VITE_BASE_PATH || (process.env.NODE_ENV === "production" ? "/strata/" : "/"),
   server: {
     host: "::",
     port: 8080,

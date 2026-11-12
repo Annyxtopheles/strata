@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://archivest.ai/sitemap.xml
+Sitemap: https://annyxtopheles.github.io/strata/sitemap.xml

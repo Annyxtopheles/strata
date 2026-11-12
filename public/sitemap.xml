@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://annyxtopheles.github.io/archivest/</loc>
+    <loc>https://annyxtopheles.github.io/strata/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://annyxtopheles.github.io/archivest/contact</loc>
+    <loc>https://annyxtopheles.github.io/strata/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://annyxtopheles.github.io/archivest/privacy-policy</loc>
+    <loc>https://annyxtopheles.github.io/strata/privacy-policy</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://annyxtopheles.github.io/archivest/terms-of-service</loc>
+    <loc>https://annyxtopheles.github.io/strata/terms-of-service</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://annyxtopheles.github.io/archivest/eula</loc>
+    <loc>https://annyxtopheles.github.io/strata/eula</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://annyxtopheles.github.io/archivest/refund-policy</loc>
+    <loc>https://annyxtopheles.github.io/strata/refund-policy</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://annyxtopheles.github.io/archivest/early-access-terms</loc>
+    <loc>https://annyxtopheles.github.io/strata/early-access-terms</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>

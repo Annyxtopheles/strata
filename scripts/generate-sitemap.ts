@@ -1,7 +1,7 @@
 import { writeFileSync } from "fs";
 import { resolve } from "path";
 
-const BASE_URL = "https://annyxtopheles.github.io/archivest";
+const BASE_URL = "https://annyxtopheles.github.io/strata";
 
 interface SitemapEntry {
   path: string;

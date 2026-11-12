@@ -72,7 +72,7 @@ export const SpecSheetModal: React.FC<SpecSheetModalProps> = ({
   const fullCsiSpec = `CSI MASTERFORMAT 3-PART SPECIFICATION
 ${csiDivision}
 PROJECT MANUAL CODE: STRATA-${material.code}
-PROGRAM OPERATOR: MatterLab Applied Sciences (ISO 14025 / EN 15804+A2)
+PROGRAM OPERATOR: STRATA Independent Verification (ISO 14025 / EN 15804+A2)
 
 ================================================================================
 PART 1 - GENERAL

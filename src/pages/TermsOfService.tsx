@@ -16,7 +16,7 @@ const TermsOfService = () => {
             Terms of Specification &amp; Studio License
           </h1>
           <p className="text-xs font-mono text-[#B8B19F] mt-2">
-            Effective Date: October 2026 · MatterLab Applied Sciences LLC (d/b/a STRATA)
+            Effective Date: October 2026 · STRATA Material Workbench
           </p>
         </div>
 
@@ -45,7 +45,7 @@ const TermsOfService = () => {
           <section>
             <h2 className="text-lg font-serif font-normal text-[#F6F5F0] mb-2">4. Technical Inquiries</h2>
             <p>
-              For enterprise multi-office licensing or custom API agreements, contact <a href="mailto:specs@matterlab-strata.io" className="text-[#C85A32] hover:underline font-mono">specs@matterlab-strata.io</a>.
+              For enterprise multi-office licensing or custom API agreements, contact <a href="mailto:specs@strata-spec.io" className="text-[#C85A32] hover:underline font-mono">specs@strata-spec.io</a>.
             </p>
           </section>
         </div>

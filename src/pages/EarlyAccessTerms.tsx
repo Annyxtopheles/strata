@@ -16,7 +16,7 @@ const EarlyAccessTerms = () => {
             Applied Lab Beta &amp; Pre-Release Terms
           </h1>
           <p className="text-xs font-mono text-[#B8B19F] mt-2">
-            MatterLab Applied Sciences LLC · Computational Tectonics Division
+            STRATA · Computational Tectonics Division
           </p>
         </div>
 
@@ -31,7 +31,7 @@ const EarlyAccessTerms = () => {
           <section>
             <h2 className="text-lg font-serif font-normal text-[#F6F5F0] mb-2">2. Verification Protocol</h2>
             <p>
-              Beta simulation outputs should be cross-checked against standard ISO 6946 / EN 15804 calculation tables prior to municipal structural filing. We welcome empirical calibration feedback from partner engineering practices at <a href="mailto:specs@matterlab-strata.io" className="text-[#C85A32] hover:underline font-mono">specs@matterlab-strata.io</a>.
+              Beta simulation outputs should be cross-checked against standard ISO 6946 / EN 15804 calculation tables prior to municipal structural filing. We welcome empirical calibration feedback from partner engineering practices at <a href="mailto:specs@strata-spec.io" className="text-[#C85A32] hover:underline font-mono">specs@strata-spec.io</a>.
             </p>
           </section>
         </div>

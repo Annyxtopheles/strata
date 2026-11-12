@@ -156,7 +156,7 @@ const CATALOG_ITEMS: CatalogItem[] = [
     density: "160 kg/m³",
     conductivity: "λ 0.042 W/m·K",
     epdVerified: true,
-    provenance: "MatterLab Bio-Fab Facility, Utrecht, Netherlands",
+    provenance: "Biogenic Fabrication Facility, Utrecht, Netherlands",
     application: "Direct-to-deck acoustic ceiling baffles, recording studio absorption panels",
     description: "Fungal root network bio-welds agricultural grain husks into a lightweight porous structure with exceptional mid-to-high frequency sound attenuation and zero toxic VOCs.",
     layers: [
@@ -345,7 +345,7 @@ const CATALOG_ITEMS: CatalogItem[] = [
     density: "2,200 kg/m³",
     conductivity: "λ 1.10 W/m·K",
     epdVerified: true,
-    provenance: "MatterLab Coastal Bioreactor Station, Lisbon, Portugal",
+    provenance: "Coastal Bioreactor Station, Lisbon, Portugal",
     application: "Heavy-traffic floor pavers, exterior plaza paving, ventilated cladding panels",
     description: "Microalgae biologically induce aragonite crystallization through photosynthesis, sequestering atmospheric CO₂ directly into stone structure without thermal sintering.",
     layers: [

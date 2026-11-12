@@ -11,7 +11,7 @@ const EULA = () => {
         </h1>
         <div className="space-y-6 bg-[#1F1E1B] p-6 sm:p-8 rounded-2xl border border-[#EAE7DF]/15 font-sans text-sm text-[#EAE7DF]/85 leading-relaxed">
           <p>
-            This End User License Agreement ("Agreement") is between you ("Specifier" or "Practice") and MatterLab Applied Sciences LLC ("Company"), governing use of the STRATA Material Specification Workbench ("Software").
+            This End User License Agreement ("Agreement") is between you ("Specifier" or "Practice") and STRATA ("Company"), governing use of the STRATA Material Specification Workbench ("Software").
           </p>
           <p>
             By downloading Revit parameter libraries, IFC4 assemblies, or accessing the STRATA cloud workbench, you agree to use the empirical datasets strictly for architectural, engineering, and construction specification purposes.

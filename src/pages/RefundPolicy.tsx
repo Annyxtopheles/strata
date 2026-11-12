@@ -16,7 +16,7 @@ const RefundPolicy = () => {
             Specification &amp; Charter Refund Policy
           </h1>
           <p className="text-xs font-mono text-[#B8B19F] mt-2">
-            MatterLab Applied Sciences LLC (d/b/a STRATA)
+            STRATA Material Workbench
           </p>
         </div>
 
@@ -38,7 +38,7 @@ const RefundPolicy = () => {
           <section>
             <h2 className="text-lg font-serif font-normal text-[#F6F5F0] mb-2">3. Billing Dispatch</h2>
             <p>
-              Send invoice or refund requests to <a href="mailto:specs@matterlab-strata.io" className="text-[#C85A32] hover:underline font-mono">specs@matterlab-strata.io</a>.
+              Send invoice or refund requests to <a href="mailto:specs@strata-spec.io" className="text-[#C85A32] hover:underline font-mono">specs@strata-spec.io</a>.
             </p>
           </section>
         </div>

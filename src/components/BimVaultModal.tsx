@@ -125,7 +125,7 @@ export const BimVaultModal: React.FC<BimVaultModalProps> = ({ open, onOpenChange
   const handleCopyAddIn = () => {
     const snippet = `<StrataAddIn>
   <Version>2.4.0</Version>
-  <Endpoint>https://api.matterlab-strata.io/v1/bim-sync</Endpoint>
+  <Endpoint>https://api.strata-spec.io/v1/bim-sync</Endpoint>
   <Protocol>ISO-14025-EN-15804</Protocol>
   <SyncMode>Bidirectional-Live</SyncMode>
 </StrataAddIn>`;

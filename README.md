@@ -1,4 +1,4 @@
-# STRATA (by MatterLab Applied Sciences)
+# STRATA
 
 **Tactile Sustainable Architecture Material Specification Workbench & Embodied Carbon Library**
 
@@ -50,4 +50,4 @@ npm run build
 
 ---
 
-© 2026 MatterLab Applied Sciences LLC. All rights reserved.
+© 2026 STRATA. All rights reserved.

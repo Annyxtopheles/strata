@@ -50,7 +50,7 @@ const Footer = () => {
         <Separator className="bg-white/5 mb-6" />
 
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4 font-sans text-xs text-[#B8B19F]/70">
-          <p>© 2026 MatterLab Applied Sciences LLC (STRATA Workbench). All rights reserved.</p>
+          <p>© 2026 STRATA Material Workbench. All rights reserved.</p>
           <p className="text-[#B8B19F]/50">Zurich · London · New York · Tokyo</p>
         </div>
       </div>

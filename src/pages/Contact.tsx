@@ -27,8 +27,8 @@ const Contact = () => {
             <p className="text-sm text-[#EAE7DF]/75 font-sans mb-4">
               For CSI MasterFormat inquiries, custom WBLCA audits, and enterprise seat commissioning:
             </p>
-            <a href="mailto:specs@matterlab-strata.io" className="text-[#C85A32] hover:underline font-mono text-sm font-semibold break-all">
-              specs@matterlab-strata.io
+            <a href="mailto:specs@strata-spec.io" className="text-[#C85A32] hover:underline font-mono text-sm font-semibold break-all">
+              specs@strata-spec.io
             </a>
           </div>
 
@@ -36,7 +36,7 @@ const Contact = () => {
             <MapPin className="w-8 h-8 text-[#2E6F5E] mb-4" />
             <h2 className="text-xl font-serif font-normal text-[#F6F5F0] mb-2">Applied Materials Laboratory</h2>
             <p className="text-sm text-[#EAE7DF]/75 font-mono leading-relaxed">
-              MatterLab Applied Sciences // STRATA Division<br />
+              STRATA Materials Engineering<br />
               Technoparkstrasse 1, 8005 Zürich<br />
               Switzerland (SIA / EN Compliance Hub)
             </p>

@@ -9,7 +9,7 @@ const FAQ = () => {
       answer: (
         <>
           <p className="mb-3">
-            STRATA (developed by MatterLab Applied Sciences) is a computational material specification workbench and embodied carbon library built specifically for architects, facade engineers, and specification writers.
+            STRATA is a computational material specification workbench and embodied carbon library built specifically for architects, facade engineers, and specification writers.
           </p>
           <p>
             Unlike generic visual moodboard directories, every specimen in STRATA is indexed with verified 3rd-party Environmental Product Declarations (EN 15804+A2), ASTM E84 fire performance metrics, ISO 354 acoustic absorption curves, and parametric Revit/IFC schedule bindings.
@@ -49,7 +49,7 @@ const FAQ = () => {
             Never. STRATA maintains a strict empirical firewall: manufacturers cannot pay to alter rankings, conceal Red List chemicals, or inflate thermal R-values.
           </p>
           <p>
-            Specimens are admitted solely after passing MatterLab's independent laboratory verification for compressive strength, VOC off-gassing, and quarry chain-of-custody transparency.
+            Specimens are admitted solely after passing independent laboratory verification for compressive strength, VOC off-gassing, and quarry chain-of-custody transparency.
           </p>
         </>
       ),
@@ -112,8 +112,8 @@ const FAQ = () => {
 
         <div className="mt-12 text-center text-xs text-[#B8B19F] font-sans">
           Have specific technical questions? Reach our engineering team at{" "}
-          <a href="mailto:specs@matterlab-strata.io" className="text-[#C85A32] hover:underline font-medium">
-            specs@matterlab-strata.io
+          <a href="mailto:specs@strata-spec.io" className="text-[#C85A32] hover:underline font-medium">
+            specs@strata-spec.io
           </a>
         </div>
       </div>

@@ -24,7 +24,7 @@ export const StrataLogo = ({ className = "h-8 w-auto", collapsed = false }: { cl
             <span className="font-mono text-lg font-bold tracking-widest text-[#F6F5F0]">STRATA</span>
             <span className="text-[9px] font-mono font-medium px-1.5 py-0.5 rounded bg-[#C85A32]/15 text-[#C85A32] border border-[#C85A32]/30">v2.4</span>
           </div>
-          <span className="font-mono text-[9px] tracking-wider text-[#B8B19F] uppercase mt-0.5">by MatterLab</span>
+          <span className="font-mono text-[9px] tracking-wider text-[#B8B19F] uppercase mt-0.5">Spec Workbench</span>
         </div>
       )}
     </div>
@@ -45,7 +45,7 @@ export const StrataVerticalLogo = ({ className = "h-16 w-auto" }: { className?: 
       </svg>
       <div>
         <span className="font-mono text-base font-bold tracking-widest text-[#F6F5F0] block">STRATA</span>
-        <span className="font-mono text-[10px] tracking-wider text-[#B8B19F] uppercase">MatterLab Applied Sciences</span>
+        <span className="font-mono text-[10px] tracking-wider text-[#B8B19F] uppercase">Material Specification Workbench</span>
       </div>
     </div>
   );

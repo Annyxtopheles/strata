@@ -16,7 +16,7 @@ const PrivacyPolicy = () => {
             Privacy &amp; Architectural IP Protection Policy
           </h1>
           <p className="text-xs font-mono text-[#B8B19F] mt-2">
-            Effective Date: October 2026 · MatterLab Applied Sciences LLC (d/b/a STRATA)
+            Effective Date: October 2026 · STRATA Material Workbench
           </p>
         </div>
 
@@ -45,7 +45,7 @@ const PrivacyPolicy = () => {
           <section>
             <h2 className="text-lg font-serif font-normal text-[#F6F5F0] mb-2">4. Data Retention &amp; Vault Export</h2>
             <p>
-              Practices may export their complete specification archive in open IFC4, CSV, and CSI MasterFormat formats at any time. For data deletion or GDPR/FADP compliance inquiries, contact <a href="mailto:specs@matterlab-strata.io" className="text-[#C85A32] hover:underline font-mono">specs@matterlab-strata.io</a>.
+              Practices may export their complete specification archive in open IFC4, CSV, and CSI MasterFormat formats at any time. For data deletion or GDPR/FADP compliance inquiries, contact <a href="mailto:specs@strata-spec.io" className="text-[#C85A32] hover:underline font-mono">specs@strata-spec.io</a>.
             </p>
           </section>
         </div>
